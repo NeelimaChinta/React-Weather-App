@@ -1,6 +1,6 @@
 # The React Weather App
 
-This web based weather app gives you the temperature and weather status of any city you want. It was built using react and the data was taken from Open Weather API. This web app also has a user friendly UI.
+This web based weather app gives you the temperature and weather status of any city you want. It was built using react and the data was taken from Open Weather API. This web app also has a user friendly UI.\
 Live website: https://reactweatherapp00.netlify.app/
 
 
