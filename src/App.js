@@ -41,13 +41,15 @@ function App() {
          ? 'app warm' : 
          'App') : 
          'App'}>
+
+         <h1>Weather App</h1>
       
       <main>
         <div className="search-box">
           <input 
             type="text" 
             className="search-bar" 
-            placeholder="Enter place"
+            placeholder="Enter City"
             onChange={e => setQuery(e.target.value)}
             value={query}
             onKeyPress={search}
@@ -61,6 +63,13 @@ function App() {
         </div>
         <div className="weather-box">
           <div className="temp">{Math.round(weather.main.temp)}°c</div>
+          
+          <div className="maxmin">
+            <span className="mami">Min: {Math.round(weather.main.temp_min)}°c</span> <span className="mami">Max: {Math.round(weather.main.temp_max)}°c</span>
+          </div>
+          <div className="humidity">Humidity: {Math.round(weather.main.humidity)}%</div>
+          <div className="windspeed">Wind Speed: {Math.round(weather.wind.speed)} kmph</div>
+          <br />
           <div className="weather">{weather.weather[0].main}</div>
         </div>
           </div>
