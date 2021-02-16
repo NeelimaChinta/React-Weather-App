@@ -1,3 +1,6 @@
+This web based weather app gives you the temperature and weather status of any city you want. It was built using react and the data was taken from Open Weather API. This web app also has a user friendly UI
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
