@@ -4,7 +4,13 @@
   box-sizing: border-box;
 }
 
-
+h1{
+  color: #FFF;
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50,50,70,0.5);
+  text-align: center;
+}
 
 body{
   font-family: 'montseratt', sans-serif;
@@ -62,7 +68,7 @@ main{
 
 .location-box .location {
   color: #FFF;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 500;
   text-align: center;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
@@ -102,6 +108,43 @@ main{
 .weather-box .weather {
   color: #FFF;
   font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50,50,70,0.5);
+}
+
+.mami {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba( 255, 255, 255, 0.2);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgba(50,50,70,0.5);
+  text-align:center;
+  box-shadow: 3px 6px rgba(0,0,0,0.2);
+
+  
+  padding-right: 10px;
+
+}
+
+.weather-box .humidity {
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50,50,70,0.5);
+
+}
+
+.weather-box .windspeed {
+  color: #FFF;
+  font-size: 30px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50,50,70,0.5);
 }
